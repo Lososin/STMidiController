@@ -22,19 +22,17 @@
 #ifndef __MAIN_H
 #define __MAIN_H
 
-#define MIDI_IN_PORTS_NUM   0x01 // Specify input ports number of your device
-#define MIDI_OUT_PORTS_NUM  0x01 // Specify output ports number of your device
-
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f4xx_hal.h"
+#include "stm32f1xx_hal.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#define MIDI_IN_PORTS_NUM   0x01 // Specify input ports number of your device
+#define MIDI_OUT_PORTS_NUM  0x01 // Specify output ports number of your device
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

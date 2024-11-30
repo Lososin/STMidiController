@@ -2,7 +2,7 @@
 #ifndef MIDI_H
 #define MIDI_H
 
-#include "stm32f4xx_hal.h"
+#include "stm32f1xx_hal.h"
 #include "stdbool.h"
 
 #define MIDI_UART1_CABLE   0x00
